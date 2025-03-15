@@ -1,77 +1,85 @@
-# enhanced-go-code
+# Enhanced Go Code
 
-## Process
+## Business Logic
 
-### Context
+### Process
+
+#### Context
 
 `WithDeadline`, `WithTimeout`, `WithCancel`, `signal.WithNotify`, `context.AfterFunc`
 
-### Profile
+#### Profile
 
 `pprof`, `trace`, `pgo`
 
-### Test
+#### Test
 
 `testing`
 
-## Allocate
+### Allocate
 
-### Map & Set
+#### Map & Set
 
 `shrink`, `struct{}`
 
-### Make with size
+#### Make with size
 
-### Max Process
+#### Max Process
 
 `runtime.GOMAXPROCS`
 
-### Goroutine Pool
+#### Goroutine Pool
 
 `ants`
 
-### Object Pool
+#### Object Pool
 
 `sync.Pool`
 
-### Write Buffer
+#### Write Buffer
 
 `strings.Buffer`, `bytes.Buffer`, `strings.Builder`
 
-### Read Scanner
+#### Read Scanner
 
 `scanner`, `bufio`
 
-## Concurrency
+#### Copy & Append
 
-### Channel
+`copy`, `append`
+
+### Concurrency
+
+#### Channel
 
 `chan`, `for range`, `select`, `consume`
 
-### Mutex
+#### Mutex
 
-### Map
+#### Map
 
 `sync.Map`
 
-### Semaphore
+#### Semaphore
 
 `go.org/x/sync/semaphore`, `waitgroup`, `go.org/x/sync/errgroup`
 
-### Atomic
+#### Atomic
 
 `sync/atomic`, `ownership`
 
-### Singleflight
+#### Singleflight
 
 `go.org/x/sync/singleflight`
 
-## Data Serialization
+## Data Structure
 
-### JSON
+### Data Serialization
+
+#### JSON
 
 `json`, `json-iterator/go`, `fastjson`
 
-### Protobuf
+#### Protobuf
 
-### FlatBuffers
+#### FlatBuffers
