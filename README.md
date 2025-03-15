@@ -16,7 +16,15 @@
 
 `testing`
 
+#### Timeout
+
+`http.Client`, `http.Server`, `context.WithTimeout`, `time.After`
+
 ### Allocate
+
+#### Lazy Init
+
+`sync.Once`, `Sync.OnceFunc`, `sync.OneValue`, `sync.OnceValues`, `sync.OnceDo`
 
 #### Map & Set
 
